@@ -51,16 +51,12 @@ class DetailPage extends StatelessWidget {
                   Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: recipe.ingredients.map((e) {
-                        return Container(
-                          child: Text(e),
-                        );
+                        return Text(e);
                       }).toList()),
                   Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: recipe.measurements.map((e) {
-                        return Container(
-                          child: Text(e),
-                        );
+                        return Text(e);
                       }).toList()),
                 ]),
           ),
